@@ -51,7 +51,7 @@ export default function Contact() {
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent(
-      `Hi, I'm interested in building a website with NexureBuild.`
+      `Hi, I'm interested in building a website with NexuraBuild.`
     );
     window.open(`https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${message}`, '_blank');
   };
